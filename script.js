@@ -50,7 +50,7 @@ multiResult = console.log(`The Multiplication of ${multnumb1} and ${multnumb2} i
 
 
 // 8- Write a program that takes a string from the user using prompt and checks if it's equal to "password". If it is, display an alert saying "Access granted", otherwise display an alert saying "Access denied".
-let password="ahmad";
+let password=prompt("Create Your Password");
 let chkPassword = prompt("Enter Your Password");
 if (chkPassword == password) {
     alert("Access Granted");
